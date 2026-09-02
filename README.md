@@ -1,5 +1,7 @@
 # HyPR01 *Hypericum perforatum* Genome — Analysis Scripts
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22258703.svg)](https://doi.org/10.5281/zenodo.22258703)
+
 Scripts accompanying the chromosome-level, haplotype-resolved genome
 assembly and annotation of *Hypericum perforatum* L. (genotype HyPR01),
 submitted manuscript. This collection is deposited to make every
@@ -119,6 +121,13 @@ environment modules, named conda/mamba/micromamba environments, Apptainer/
 Singularity containers, Python venvs, and standalone downloaded binaries) —
 see `SOFTWARE_VERSIONS.md` for the full tool-by-tool breakdown, including an
 explicit list of what is *not* version-pinned in the scripts as written.
+
+## Citation
+
+This repository is archived on Zenodo with a permanent DOI:
+[10.5281/zenodo.22258703](https://doi.org/10.5281/zenodo.22258703). Cite
+this DOI (rather than a GitHub URL alone) if you use these scripts, so
+your citation points to the exact archived version.
 
 ## License
 
