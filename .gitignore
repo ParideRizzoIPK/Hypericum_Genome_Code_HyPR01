@@ -1,0 +1,20 @@
+# macOS / exFAT junk (this volume generates AppleDouble files on every copy)
+.DS_Store
+._*
+
+# Python
+__pycache__/
+*.pyc
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Runtime output directories some scripts in this collection generate
+# if run from inside a cloned copy (never checked in; safe to ignore)
+logs/
+intermediate/
+
+# Internal reference doc, kept locally only -- not part of the deposit
+FIGURE_TABLE_INDEX.md
