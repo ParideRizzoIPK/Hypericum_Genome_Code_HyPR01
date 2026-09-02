@@ -138,36 +138,3 @@ circlize.
 ## Perl modules (bundled with the local `ogdraw_env` / GeneMap-1.1.1 install, not version-pinned)
 
 BioPerl (`Bio::Perl`), `GD`, `GeneMap::Plastome`, `PostScript::Simple`.
-
-## A note on `PROJECT_ID`
-
-The `Final_Combined_GFF3` scripts (05) set `PROJECT_ID="PRJEB123953"` — this
-is a real, public ENA/EBI study accession, kept intentionally as submission
-metadata (same treatment as the `AUTHORS=` field elsewhere: legitimate
-provenance data, not something to scrub).
-
----
-
-## Everything not version-pinned in the scripts
-
-Split by which machine actually ran it, checked against each script's own
-`#SBATCH` directives — HPC entries below check via `module avail`/`module
-spider`; local macOS entries check via `mamba`/`conda list -n <env>`,
-`brew list`, or the app's own version info.
-
-### HPC (SLURM cluster)
-
-- **MCScanX** — see the note above; not resolved as a conda package in
-  either `synteny_circos` or `last_env`.
-- **`busco_plot_env`, `.venv_coverage_plotting`/`py_env`/`py_plot_env`** —
-  plain Python `venv`s, not micromamba envs.
-
-### Local macOS
-
-- **Named environments:** `ogdraw_env`, `pycirclize_env` (except its
-  `python=3.11`, which is pinned), `nor_test`, `bedtools_env`,
-  `samtools-env`.
-- **Standalone tools:** barrnap-HGV, phyloFlash, TRF, BLASTn/makeblastdb,
-  MUMmer/nucmer (all via `nor_test`).
-- **Language-level packages:** every remaining Python pip package and
-  every R CRAN package listed in the sections above this one.

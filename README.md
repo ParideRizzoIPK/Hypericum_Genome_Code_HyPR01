@@ -74,8 +74,8 @@ See `PIPELINE_OVERVIEW.md` for the full per-script breakdown of every folder.
 
 Sequencing data and assembled genome FASTAs referenced by these scripts are
 deposited at the European Nucleotide Archive (ENA). **All FASTA files below
-— nuclear, chloroplast, and mitochondrion — belong to the same individual:
-*Hypericum perforatum* genotype HyPR01.**
+— nuclear, chloroplast, and mitochondrion — belong to the same genotype:
+*Hypericum perforatum* HyPR01.**
 
 | Accession | What it holds |
 |---|---|
